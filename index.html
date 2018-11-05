@@ -1,71 +1,46 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
-  <head>
-    <title>Geolocation</title>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="map"></div>
-    <script>
-      // Note: This example requires that you consent to location sharing when
-      // prompted by your browser. If you see the error "The Geolocation service
-      // failed.", it means you probably did not give permission for the browser to
-      // locate you.
-      var map, infoWindow;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 15.5856, lng: 120.9189},
-          zoom: 6
+    <head>
+	    <meta name ="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>EVACQUAKE</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta http-quiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="image/Hotline.png" type="image/gif" sizes="16x16">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="manifest" href="/manifest.json">
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>   
+        
+
+    </head>
+    <body>
+      <img src="image/banner.png" class="banner">
+
+    <h1> EVACQUAKE </h1>
+    <div class="container">
+
+    	<div class="flex_container">
+            <button class ="btn" i class="Evacuation Finder" onclick="window.location.href='function/landslide.html'"> Landslide Prone Area </button>
+        </div> 
+
+    	<div class="flex_container">
+        <button class ="btn" id="call" i class="Hotline"> Hotline </button>
+            <button class ="btn" i class="Evacuation Finder" onclick="window.location.href='evac/test.html'"> Evacuation Finder </button>
+        </div>
+   
+        <script type="text/javascript">
+	       var width = document.getElementsByClassName('images').offsetWidth;
+	       console.log(width);
+        </script>
+
+        <script>
+        $("#call").on('click', function() {
+        var link = "tel:(074)442-1900"; 
+        window.location.href = link;
         });
-        infoWindow = new google.maps.InfoWindow;
-
-        // Try HTML5 geolocation.
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(function(position) {
-            var pos = {
-              lat: position.coords.latitude,
-              lng: position.coords.longitude
-            };
-
-            infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
-            infoWindow.open(map);
-            map.setCenter(pos);
-          }, function() {
-            handleLocationError(true, infoWindow, map.getCenter());
-          });
-        } else {
-          // Browser doesn't support Geolocation
-          handleLocationError(false, infoWindow, map.getCenter());
-        }
-      }
-
-      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-        infoWindow.setPosition(pos);
-        infoWindow.setContent(browserHasGeolocation ?
-                              'Error: The Geolocation service failed.' :
-                              'Error: Your browser doesn\'t support geolocation.');
-        infoWindow.open(map);
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiPQpECSsDvFBFod1nVNQS9DNjT5sGMgA&callback=initMap">
-        //AIzaSyBYfiPtcgCRbcquz9GNp8BeFrpaG589Zek
-        //AIzaSyDLJuY_WYpOjLgeVCPFZtF068K69FNpZYI
-    </script>
-  </body>
+        </script>
+    </div>
+</body>
+    
 </html>
