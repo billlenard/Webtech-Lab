@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Monospace, Candara;
+    line-height: 1.5;
+    background-color: #ababab;
+    color: #000000;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.page {
+    background-color: #f4f4f4;
+    padding: 40px 90px;
+}
+h1 {
+    font-size: 250%;
+}
+
+p {
+
+    font-family: Monospace, Consolas;
+    font-size: 115%;
+}
+
+span{
+    background-color: #f18973;
+}
+ 
+span.sp {
+ background-color: #d5f4e6;
+}
+
+/* Header */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 5px solid white;
+
+}
+
+nav {
+    float: right;
+    margin-top: 23px;
+    padding-right: 50px;
+}
+
+nav ul li {
+    display: inline;
+    text-transform: uppercase;
+    padding-left: 20px;
+    margin-left: 0px;
+}
+
+
+header nav a {
+    color: MediumSeaGreen;
+    text-decoration: none;
+     border: 1px solid #000000;
+}
+
+header .highlight, header .current a {
+    color: black;
+    background-color: coral;
+    padding: 10px 10px 10px 10px;
+}
+
+header nav a:hover {
+    color: black;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 90%;
+}
+
+figure figcaption {
+    font-size: 80%;
+    font-style: italic;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+#page-banner {
+    background: url("BaguioMap.png") no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#blog-post p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+figcaption {
+    display: block;
+}
+aside:nth-of-type(odd) {
+    float: right;
+    text-align: center;
+    margin-left: 40px;
+}
+
+ aside:nth-of-type(even) {
+        float: left;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+
+ul {
+    list-style-type: square;
+   }
+ol {
+    padding-left: 20px;
+}
+li {
+    margin-left: 20px;
