@@ -1,0 +1,40 @@
+Baguio City National High School - Bakakeng Annex 16.3845482, 120.5930252
+Saint Louis University Maryheights Campus 16.3842153, 120.5931548
+Daily International School 16.3901706, 120.5913566
+Cherubim School Inc. - CICM Loop New Site Bakakeng 16.3884633, 120.5909307
+Baguio City High School 16.406874, 120.5972387
+Mary Immaculate School Baguio City Inc. - Gen. Luna Rd, Baguio City, Benguet 2600, Gen. Luna Rd, Baguio, Benguet 16.413854, 120.599267
+Roxas National High School - 87, Sto. Tomas Road, Baguio, 2600 Benguet 16.3782207, 120.5712606
+Manuel L. Quezon Elementary School - DPS Compound Access Rd., Baguio City, 2600, Benguet, Baguio, Benguet 16.4037463, 120.603269
+WESTMONT - Westgrove Heights, Monticello Road, Camp 7, Baguio, 2600 Benguet 16.3804763, 120.6038954
+Baguio City Special Education Center - 84 Military Cutoff Rd, Baguio, 2600 Benguet 16.4030723, 120.6047666
+San Vicente National High School 16.3949891, 120.5966611
+Philippine Bell International School - Yangco Rd, Baguio, Benguet 16.4133214, 120.6034899
+Mabinin Elementary School 16.410419, 120.600965
+San Vicente Elementary School 16.395099, 120.596532
+St. Elizabeth Montessori School of Baguio City - #78 Upper General Juan Road, Salud Mitra, Baguio, Benguet 16.4118197, 120.6024824
+EASTER COLLEGE, Easter Road, Baguio City, Benguet 16.4235758, 120.587002
+Keystone College - 13 Aspiras - Palispis Hwy, Baguio, Benguet 16.4015988, 120.5942076
+Aguinaldo Elementary School Baguio City - Kennon Rd, Baguio, Benguet 16.4023332, 120.5960071
+Pines City National High School - Palma St, Baguio, Benguet 16.413687, 120.58947
+Camp 7 Elementary School - 227 Kennon Rd, Baguio, 2600 Benguet 16.3807332, 120.6069221
+Loakan Elementary School - Loakan Rd, Baguio, Benguet 16.3772707, 120.6125453
+JP Laurel Elementary School - Hillside Rd, Baguio, Benguet 16.394608, 120.606928
+John Hay Elementary School - Camp John Hay, Baguio, Benguet 16.3963616, 120.6087579
+Manuel L. Quezon Elementary School - DPS Compound Access Rd., Baguio City, 2600, Benguet, Baguio, Benguet 16.4037463, 120.603269
+Saint Louis High School - Pacdal 16.4170164, 120.6145349
+Rizal National High School - Pacdal Road, Baguio, Benguet 16.4170379, 	120.6160942
+Baguio City National High Scholl - Rizal Annex 16.418045, 120.6209106
+Gibraltar Elementary School 16.4167267, 120.6165737
+Saint Louis Aurora High School 16.4240257,120.6059267
+Doña Aurora National High School - Malvar St, Baguio, Benguet 16.4247399, 120.6040129
+Doña Aurora Elementary School 16.4249998, 120.6048826
+Lucban Elementary School - Camdas Subdivision, Baguio, Benguet 16.426949, 120.5936129
+Pines City College 16.4260293,120.5946832
+Bonifacio Elementary School - EDY Building, 144 Kisad Rd, Burnham - Legarda Barangay, Baguio, 2600 Benguet 16.4196101,120.5879625
+Pinsao National High School - 03 Pinsao Rd, Baguio, 2600 Pinsao Rd, Baguio, 2600 Benguet 16.4278142,120.5817729
+Pinsao Elementary School 16.4278288,120.5811693 
+Pinget National High School - Purok 8, Upper Pinget, Baguio, 2600 16.431977,120.583536
+Pinget Elementary School 16.431977, 120.583536
+Aguinaldo Elementary School 16.4086715,120.5893322
+Quezon Elementary School 16.4041062,120.6032016
