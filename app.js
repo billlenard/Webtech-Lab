@@ -3,14 +3,13 @@ window.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open('static')  //open a cache
       .then(function (cache) {   //cache open returns a promise  
-          cache.add('/');
+          cache.add('/evac/evac.js');
 		  cache.add('/index.html');
-		  cache.add('/index.html#current');
-		  cache.add('/index.html#recent');
-		  cache.add('/index.html#summary');
+		  cache.add('/evac/test.html');
+		  cache.add('/function/function.js');
+		  cache.add('/function/landslide.html');
 		  cache.add('/app.js');
 		  cache.add('/style.css');
-		  //cache.add('/manifest.json');
 		  
 		 
       })
